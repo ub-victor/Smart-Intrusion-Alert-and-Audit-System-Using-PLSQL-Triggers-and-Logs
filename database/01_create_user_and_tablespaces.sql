@@ -1,0 +1,15 @@
+-- 01_create_user_and_tablespaces.sql  (run as SYS)
+-- NOTE: If you don't have SYSDBA rights, skip tablespace creation and run user creation only.
+
+-- Create tablespaces (optional)
+CREATE TABLESPACE project_data DATAFILE 'project_data01.dbf' SIZE 200M AUTOEXTEND ON NEXT 50M;
+CREATE TABLESPACE project_idx  DATAFILE 'project_idx01.dbf' SIZE 100M AUTOEXTEND ON NEXT 20M;
+
+-- Create user
+CREATE USER ushindi IDENTIFIED BY Ushindi2025
+DEFAULT TABLESPACE project_data
+TEMPORARY TABLESPACE temp
+QUOTA UNLIMITED ON project_data;
+
+GRANT CONNECT, RESOURCE, CREATE VIEW, CREATE PROCEDURE, CREATE TRIGGER, CREATE SEQUENCE, CREATE TABLE TO ushindi;
+GRANT SELECT ON V_$DATABASE TO ushindi;
