@@ -64,5 +64,5 @@ This project implements a database-level intrusion detection and auditing system
 - Add retention and archival policies for audit_log and audit_details.
 
 ## Contact
-If you need run help or modifications for your environment, contact me at your.email@example.com or include an issue in your GitHub repo.
+If you need run help or modifications for your environment, contact me at victoireushindi371@gmail.com or include an issue in your GitHub repo.
 # Smart-Intrusion-Alert-and-Audit-System-Using-PLSQL-Triggers-and-Logs
