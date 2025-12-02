@@ -1,4 +1,4 @@
--- 06_triggers_and_audit.sql
+-- 06_triggers_and_audit.sql 
 
 BEGIN
   EXECUTE IMMEDIATE 'CREATE OR REPLACE CONTEXT project_ctx USING security_pkg';
