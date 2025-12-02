@@ -7,7 +7,7 @@ CREATE OR REPLACE PACKAGE security_pkg AS
   PROCEDURE check_business_rules(p_username IN VARCHAR2, p_role IN VARCHAR2, p_action IN VARCHAR2, p_table IN VARCHAR2, p_ip IN VARCHAR2);
 END security_pkg;
 /
-CREATE OR REPLACE PACKAGE BODY security_pkg AS
+CREATE OR REPLACE PACKAGE BODY security_pkg AS 
 
   PROCEDURE log_audit(p_username IN VARCHAR2, p_action IN VARCHAR2, p_table IN VARCHAR2, p_ip IN VARCHAR2, p_status IN VARCHAR2, p_details IN CLOB) IS
     v_log_id NUMBER;
