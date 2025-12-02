@@ -1,5 +1,3 @@
--- 02_ddl_create_tables_and_population.sql
--- Connect as project user, e.g.: CONNECT ushindi/Ushindi2025;
 
 -- Drop existing objects if any
 BEGIN
