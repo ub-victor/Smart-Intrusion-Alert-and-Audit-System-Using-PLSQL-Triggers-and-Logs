@@ -1,4 +1,4 @@
--- 09_cleanup_drop_objects.sql
+-- 09_cleanup_drop_objects.sql 
 BEGIN
   EXECUTE IMMEDIATE 'DROP TRIGGER trg_secure_data_audit';
 EXCEPTION WHEN OTHERS THEN NULL;
