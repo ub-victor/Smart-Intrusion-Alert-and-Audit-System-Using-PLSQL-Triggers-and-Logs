@@ -22,7 +22,7 @@ This project implements a database-level intrusion detection and auditing system
 - `database/07_test_cases.sql` — test scripts showing denied/allowed actions and audit output.
 - `database/08_analytics_queries.sql` — BI-oriented queries and window-function examples.
 - `screenshots/` — store required screenshots (ER diagram, SQL Developer execution, audit log results, dashboards)
-- `presentation/` — PowerPoint (max 10 slides) for demonstration.
+- `presentation/` — PowerPoint with 10 slides for demonstration of my work.
 - `README.md` — this file.
 
 ## Quick start (run in this order)
