@@ -1,2 +1,0 @@
--- sample_data_generator.sql
--- (Optional helper to regenerate sample data)
