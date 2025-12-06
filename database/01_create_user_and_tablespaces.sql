@@ -1,5 +1,5 @@
 -- 01_create_user_and_tablespaces.sql  (run as SYS)
--- NOTE: If you don't have SYSDBA rights, skip tablespace creation and run user creation only.
+
 
 -- Create tablespaces (optional)
 CREATE TABLESPACE project_data DATAFILE 'project_data01.dbf' SIZE 200M AUTOEXTEND ON NEXT 50M;
